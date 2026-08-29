@@ -1,0 +1,20 @@
+# 编译生成文件
+/build/
+/Objects/
+/Listings/
+
+# Keil 用户配置
+*.uvoptx
+*.uvguix.*
+
+# 编译中间文件
+*.o
+*.axf
+*.map
+*.lst
+*.hex
+*.bin
+
+# TRAE / IDE 配置
+.vscode/
+.eide/

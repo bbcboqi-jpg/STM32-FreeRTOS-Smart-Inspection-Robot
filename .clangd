@@ -1,0 +1,65 @@
+CompileFlags:
+  Add:
+    - -isystemD:\qrs\keil\ARM\ARMCC\include
+    - -isystemD:\qrs\keil\ARM\ARMCC\include\rw
+    - -D__STDC__=1
+    - -D__STDC_VERSION__=199901L
+    - -D__STDC_HOSTED__=1
+    - -D__STDC_ISO_10646__=200607
+    - -D__EDG__=1
+    - -D__EDG_VERSION__=407
+    - -D__EDG_SIZE_TYPE__=unsigned int
+    - -D__EDG_PTRDIFF_TYPE__=int
+    - -D__sizeof_int=4
+    - -D__sizeof_long=4
+    - -D__sizeof_ptr=4
+    - -D__ARMCC_VERSION=5060960
+    - -D__TARGET_CPU_CORTEX_M3=1
+    - -D__TARGET_FPU_SOFTVFP=1
+    - -D__MICROLIB=1
+    - -D__CC_ARM=1
+    - -D__arm=1
+    - -D__arm__=1
+    - -D__TARGET_ARCH_7_M=1
+    - -D__TARGET_ARCH_ARM=0
+    - -D__TARGET_ARCH_THUMB=4
+    - -D__TARGET_ARCH_A64=0
+    - -D__TARGET_ARCH_AARCH32=1
+    - -D__TARGET_PROFILE_M=1
+    - -D__TARGET_FEATURE_HALFWORD=1
+    - -D__TARGET_FEATURE_THUMB=1
+    - -D__TARGET_FEATURE_MULTIPLY=1
+    - -D__TARGET_FEATURE_DOUBLEWORD=1
+    - -D__TARGET_FEATURE_DIVIDE=1
+    - -D__TARGET_FEATURE_UNALIGNED=1
+    - -D__TARGET_FEATURE_CLZ=1
+    - -D__TARGET_FEATURE_DMB=1
+    - -D__TARGET_FEATURE_EXTENSION_REGISTER_COUNT=0
+    - -D__APCS_INTERWORK=1
+    - -D__thumb=1
+    - -D__thumb__=1
+    - -D__t32__=1
+    - -D__OPTIMISE_SPACE=1
+    - -D__OPT_SMALL_ASSERT=1
+    - -D__OPTIMISE_LEVEL=2
+    - -D__SOFTFP__=1
+    - -ferror-limit=0
+  Remove:
+    - --cpu
+    - --li
+    - --c99
+    - --split_sections
+    - --diag_suppress=*
+    - --no_depend_system_headers
+    - --depend
+    - --strict
+    - --enum_is_int
+    - --gnu
+    - --apcs=*
+    - --signed_chars
+    - --split_ldm
+    - --execute_only
+    - -Otime
+  CompilationDatabase: ./build/Target 1
+Diagnostics:
+  Suppress: "*"
